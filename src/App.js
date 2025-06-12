@@ -39,8 +39,7 @@ function App() {
         points={[
           "UiPath RPA & Test Automation",
           "SAP Build Apps & Workzone",
-          "Automation Fast Start Packs",
-          "AG Store Automations"
+          "Automation Fast Start Packs"
         ]}
         buttonText="Explore"
         buttonLink="#"
