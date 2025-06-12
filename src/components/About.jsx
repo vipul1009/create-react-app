@@ -5,7 +5,7 @@ export default function About() {
     <div id="about" className="bg-[#1f2937] text-white py-[-10] px-4">
       <div className="max-w-[100%] h-[100%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10">
         {/* Left Image */}
-        <div className="w-full aspect-square md:h-[60%] md:w-[40%] rounded-[50%] overflow-hidden">
+        <div className="w-full aspect-square md:h-[30%] md:w-[30%] rounded-[50%] overflow-hidden">
           <img
             src="/image.png" // Replace with your image path
             alt="SAP handshake"
