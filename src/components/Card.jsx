@@ -23,12 +23,12 @@ export default function InfoCard({ title, points, buttonText, buttonLink }) {
         </ul>
       </div>
 
-      <a
+      {/* <a
         href={buttonLink}
         className="mt-6 inline-block w-fit px-4 py-2 bg-blue-400 text-white font-semibold rounded hover:bg-blue-500 transition"
       >
         {buttonText}
-      </a>
+      </a> */}
     </motion.div>
   )
 }

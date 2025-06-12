@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-// import Link from "next/link"
 import { Mail, Phone, Search, ChevronDown, ArrowUp } from "lucide-react"
 
 export default function Header() {
@@ -43,7 +42,7 @@ export default function Header() {
               <div className="w-60 h-24 relative">
                 <img
                   src="/logo.png"
-                  alt="AGC Apps Logo"
+                  alt=""
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -53,6 +52,7 @@ export default function Header() {
             <nav className="hidden lg:flex items-center space-x-8">
               {navItems.map((item) => (
                 <div key={item.name} className="relative group">
+                    <a href={item.href} className="text-gray-600 hover:text-gray-900">
                   <button
                     className="flex items-center text-gray-600 hover:text-gray-900 py-2"
                     onClick={() => toggleMenu(item.name)}
@@ -65,6 +65,7 @@ export default function Header() {
                       />
                     )}
                   </button>
+                    </a>
 
                   {/* Mega Menu */}
                   {item.megaMenu && activeMenu === item.name && (
@@ -114,9 +115,9 @@ export default function Header() {
             </nav>
 
             {/* Search button */}
-            <button className="p-2 rounded-full hover:bg-gray-100">
+            {/* <button className="p-2 rounded-full hover:bg-gray-100">
               <Search className="h-6 w-6" />
-            </button>
+            </button> */}
 
             {/* Mobile menu button */}
             <button className="lg:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
@@ -135,9 +136,10 @@ export default function Header() {
             <nav className="space-y-4">
               {navItems.map((item) => (
                 <div key={item.name} className="border-b border-gray-200 pb-2">
+                <a href={item.href} className="text-gray-600 hover:text-gray-900">
                   <button
                     className="flex items-center justify-between w-full text-gray-600 py-2"
-                    onClick={() => toggleMenu(item.name)}
+                    
                   >
                     {item.name}
                     {(item.megaMenu || item.dropdown) && (
@@ -146,6 +148,7 @@ export default function Header() {
                       />
                     )}
                   </button>
+                </a>
 
                   {/* Mobile Mega Menu */}
                   {item.megaMenu && activeMenu === item.name && (
@@ -199,107 +202,21 @@ export default function Header() {
 
 // Navigation data (unchanged, no TypeScript used)
 const navItems = [
+{
+    name: "Home",
+    href: "#home",
+},
   {
     name: "Services",
-    megaMenu: [
-      {
-        title: "Enterprise Asset Management",
-        links: [
-          { text: "SAP Intelligent Asset Management Suite", href: "#" },
-          { text: "SAP Service & Asset Manager (SSAM)", href: "#" },
-          { text: "SAP Field Service Management (FSM)", href: "#" },
-          { text: "SAP S4 HANA Enterprise Asset Management", href: "#" },
-          { text: "SAP S4 Resource Scheduler", href: "#" },
-          { text: "AG EAM Skins for SSAM", href: "#" },
-        ],
-      },
-      {
-        title: "SAP Business Technology Platform",
-        links: [
-          { text: "SAP Application Development and Automation", href: "#" },
-          { text: "SAP Data and Analytics", href: "#" },
-          { text: "SAP Integration Suite", href: "#" },
-          { text: "SAP Artificial Intelligence", href: "#" },
-        ],
-      },
-      {
-        title: "SAP S/4 HANA",
-        links: [
-          { text: "RISE with SAP", href: "#" },
-          { text: "GROW with SAP", href: "#" },
-          { text: "SAP Business Suite", href: "#" },
-          { text: "AG - S4Energy QPPS", href: "#" },
-          { text: "SAP S/4HANA Cloud", href: "#" },
-        ],
-      },
-    ],
+    href: "#services",
   },
-  {
-    name: "Products & Solutions",
-    megaMenu: [
-      {
-        title: "Enterprise Automation",
-        links: [
-          { text: "SAP Signavio Transformation Suite", href: "#" },
-          { text: "SAP Build - Apps, Automation & Workzone", href: "#" },
-          { text: "UiPath RPA & Test Automation", href: "#" },
-          { text: "AG Store - Pre-Built SAP Automations", href: "#" },
-          { text: "Automation Fast Start Pack - Finance AP", href: "#" },
-          { text: "Automation Fast Start Pack - Finance Month-End", href: "#" },
-          { text: "Automation Fast Start Pack - SCM & Logistics", href: "#" },
-          { text: "Automation Fast Start Pack - Asset Management", href: "#" },
-        ],
-      },
-      {
-        title: "SAP Analytics",
-        links: [
-          { text: "SAP Analytics", href: "#" },
-          { text: "SAP Ariba", href: "#" },
-          { text: "SAP Concur", href: "#" },
-          { text: "SAP SuccessFactors", href: "#" },
-          { text: "SAP GRC", href: "#" },
-          { text: "SAP Data Governance", href: "#" },
-        ],
-      },
-      {
-        title: "SAP Business Technology Platform",
-        links: [
-          { text: "SAP Business Technology Platform", href: "#" },
-          { text: "SAP Implementation", href: "#" },
-          { text: "SAP Application Management (AMS)", href: "#" },
-          { text: "SAP Consultancy", href: "#" },
-          { text: "SAP Project Management", href: "#" },
-          { text: "SAP Optimisation", href: "#" },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Industry Sectors",
-    dropdown: [
-      { text: "Manufacturing", href: "#" },
-      { text: "Energy & Utilities", href: "#" },
-      { text: "Life Sciences", href: "#" },
-      { text: "Consumer Products", href: "#" },
-      { text: "Retail", href: "#" },
-    ],
-  },
-  {
-    name: "Resources",
-    dropdown: [
-      { text: "Case Studies", href: "#" },
-      { text: "Events & Webinars", href: "#" },
-      { text: "On-Demand", href: "#" },
-      { text: "AG Podcast", href: "#" },
-      { text: "Blogs", href: "#" },
-    ],
-  },
+ 
   {
     name: "About",
-    href: "/about",
+    href: "#about",
   },
   {
     name: "Contact us",
-    href: "/contact",
+    href: "#contact",
   },
 ]

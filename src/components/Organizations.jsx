@@ -13,7 +13,7 @@ export default function ClientLogos() {
       <div className="max-w-[80vw] mx-auto ">
         <h2 className="text-[max(3vw,30px)] font-bold ml-10vw text-gray-800 mb-10">
           Global Organisations{" "}
-          <span className="text-sky-400 font-semibold">We Serve</span>
+          <span className="text-[#0000ff] font-semibold">We Serve</span>
         </h2>
 <div className="flex gap-4 items-center justify-center flex-wrap mb-8">
         <div className="flex flex-wrap justify-start ml-4 items-center gap-10">
@@ -26,9 +26,9 @@ export default function ClientLogos() {
             />
           ))}
         </div>
-        <div className="text-center w-[80%] md:w-[40%] mt-8">
+        <div className="text-center w-[80%] md:w-[40%] mt-8 border border-gray-300 p-6 rounded-lg bg-white shadow-md">
           <p className="text-gray-[min(1.5vw,12px)] text-lg">
-            Acme Intralog Fzco is one of the leading material handling & warehouse automation solution providers in the Middle East, developing tailor-made approaches for complex needs. Founded in 1975 with headquarter in Dubai, we optimise intralogistics for customers across multiple industries, including retail, e-commerce, FMCG, food & beverage, pharma.
+            Acme Intralog Fzco is one of the leading material handling & warehouse automation solution providers in the Middle East, developing tailor-made approaches for complex needs.<br /><br /> Founded in 1975 with headquarter in Dubai, they optimise intralogistics for customers across multiple industries, including retail, e-commerce, FMCG, food & beverage, pharma.
           </p>
         </div>
       </div>

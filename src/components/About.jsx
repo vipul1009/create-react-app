@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="bg-[#1f2937] text-white py-[-10] px-4">
+    <div id="about" className="bg-[#1f2937] text-white py-[-10] px-4">
       <div className="max-w-[100%] h-[100%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10">
         {/* Left Image */}
         <div className="w-full aspect-square md:h-[60%] md:w-[40%] rounded-[50%] overflow-hidden">

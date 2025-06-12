@@ -7,6 +7,7 @@ import { Contact } from 'lucide-react';
 import ContactForm from './components/ContactForm.jsx';
 import ClientLogos from './components/Organizations.jsx';
 import About from './components/About.jsx';
+import Footer from './components/Footer.jsx';
 // import AtmcDividerRev from './components/ReversedAtmc.jsx';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Header />
       <Home />
      <AtmcDivider topColor='#000002' otherColor='#f3f4f6'/>
-      <div className=" bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+      <div id="services" className=" bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-[max(4vw,30px)] font-bold ml-10vw text-gray-800 mb-10">
       Our Services
@@ -36,7 +37,7 @@ function App() {
       />
 
       <InfoCard
-        title="Enterprise Automation"
+        title="SAP Support"
         points={[
           "UiPath RPA & Test Automation",
           "SAP Build Apps & Workzone",
@@ -47,7 +48,7 @@ function App() {
       />
 
       <InfoCard
-        title="Data & Analytics"
+        title="SAP Implementation"
         points={[
           "SAP Analytics Cloud",
           "SAP Data Governance",
@@ -66,6 +67,8 @@ function App() {
 <ClientLogos />
 <AtmcDivider topColor='#f3f4f6' otherColor='#1f2937'/>
 <ContactForm />
+<Footer />
+
     </>
   );
 }

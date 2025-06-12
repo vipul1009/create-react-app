@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bg-[#000002] text-white py-12 px-4 min-h-[80vh]">
+    <div id="home" className="bg-[#000002] text-white py-12 px-4 min-h-[80vh]">
       <div className="max-w-[100%] h-[100%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10">
         {/* Left Image */}
         <div className="w-full md:w-[60%]">
