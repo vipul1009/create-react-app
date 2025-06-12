@@ -6,6 +6,7 @@ import Home from './components/Home.jsx';
 import { Contact } from 'lucide-react';
 import ContactForm from './components/ContactForm.jsx';
 import ClientLogos from './components/Organizations.jsx';
+import About from './components/About.jsx';
 // import AtmcDividerRev from './components/ReversedAtmc.jsx';
 
 function App() {
@@ -60,9 +61,11 @@ function App() {
   </div>
 </div>
 <AtmcDivider topColor='#f3f4f6' otherColor='#1f2937'/>
-<ContactForm />
+<About />
 <AtmcDivider topColor='#1f2937' otherColor='#f3f4f6'/>
 <ClientLogos />
+<AtmcDivider topColor='#f3f4f6' otherColor='#1f2937'/>
+<ContactForm />
     </>
   );
 }
