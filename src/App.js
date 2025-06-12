@@ -28,9 +28,12 @@ function App() {
         title="SAP Consultancy"
         points={[
           "SAP Optimisation",
-          "SAP Integration & Implementation Services",
+          "SAP Integration & Implementation Services", 
           "SAP Migration Services",
-          "SAP Security"
+          "SAP Security",
+          "SAP Strategy & Roadmap Planning",
+          "SAP System Architecture Consulting",
+          "SAP License Optimization"
         ]}
         buttonText="Read More"
         buttonLink="#"
@@ -39,9 +42,13 @@ function App() {
       <InfoCard
         title="SAP Support"
         points={[
-          "UiPath RPA & Test Automation",
-          "SAP Build Apps & Workzone",
-          "Automation Fast Start Packs"
+          "SAP Application Management",
+          "SAP Cloud Management",
+          "SAP Data Management",
+          "SAP Business Process Management",
+          "SAP Upgrade & Patch Management",
+          "SAP Performance Tuning & Monitoring",
+          "SAP Help Desk & End-User Support"
         ]}
         buttonText="Explore"
         buttonLink="#"
@@ -50,10 +57,14 @@ function App() {
       <InfoCard
         title="SAP Implementation"
         points={[
-          "SAP Analytics Cloud",
-          "SAP Data Governance",
-          "SAP GRC",
-          "Custom Dashboards"
+          "Requirement Analysis & Business Blueprinting",
+          "System Design & Configuration",
+          "Data Migration & Validation",
+          "Integration with Third-party Systems",
+          "User Training & Change Management",
+          "Quality Assurance & Testing",
+          "Go-Live & Post-Implementation Support",
+          "Project Management & Governance"
         ]}
         buttonText="Discover"
         buttonLink="#"
