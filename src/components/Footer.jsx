@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white text-lg font-bold mb-3">Aventis Consultancy Services</h3>
           <p className="text-sm">
-            Your trusted partner for SAP, digital transformation, and innovative enterprise solutions.
+            Address - OFFICE NO-1039,10TH FLOOR,GALAXY BLUE SAPPHIRE PLAZA SECTOR-04,GREATER NOIDA WEST,G.B.NAGAR,U.P
           </p>
         </div>
 
