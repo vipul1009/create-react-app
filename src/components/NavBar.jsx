@@ -18,18 +18,18 @@ export default function Header() {
       <div className="bg-zinc-800 text-white py-2 px-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex space-x-6 text-sm">
-            <a href="mailto:enquiries@agcapps.com" className="flex items-center hover:text-gray-300">
+            <a href="mailto:support@aventis-consultancy.com" className="flex items-center hover:text-gray-300">
               <Mail className="h-4 w-4 mr-1" />
-              <span className="hidden sm:inline">enquiries@agcapps.com</span>
+              <span className="hidden sm:inline">support@aventis-consultancy.com</span>
             </a>
-            <a href="mailto:agsupport@agcapps.com" className="flex items-center hover:text-gray-300">
+            <a href="mailto:info@aventis-consultancy.com" className="flex items-center hover:text-gray-300">
               <Mail className="h-4 w-4 mr-1" />
-              <span className="hidden sm:inline">agsupport@agcapps.com</span>
+              <span className="hidden sm:inline">info@aventis-consultancy.com</span>
             </a>
           </div>
-          <a href="tel:01753386530" className="flex items-center text-sm hover:text-gray-300">
+          <a href="tel:+919643589168" className="flex items-center text-sm hover:text-gray-300">
             <Phone className="h-4 w-4 mr-1" />
-            <span>01753 386530</span>
+            <span>+919643589168</span>
           </a>
         </div>
       </div>
