@@ -39,13 +39,18 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-3">Connect with Us</h4>
           <div className="flex space-x-4 text-lg">
-            <a href="#" className="hover:text-sky-400">
+            <a href="https://www.linkedin.com/company/aventis-consultancy-services/" className="hover:text-sky-400">
               <FaLinkedin />
             </a>
-            <a href="#" className="hover:text-sky-400">
+            {/* <a href="#" className="hover:text-sky-400">
               <FaTwitter />
-            </a>
-            <a href="mailto:support@aventis-consultancy.com" className="hover:text-sky-400">
+            </a> */}
+            <a
+              href="mailto:support@aventis-consultancy.com"
+              className="hover:text-sky-400"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaEnvelope />
             </a>
           </div>
