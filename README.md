@@ -1,31 +1,106 @@
-# Create React App
+# Aventis Consultancy Website
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Welcome to the official repository for **Aventis Consultancy's** website – a modern, responsive, and professional business site built using **React**, **JavaScript**, **HTML5**, and **CSS3**. This project was developed as part of a freelance engagement to create a sleek and functional online presence for a consultancy firm.
 
-## Deploy Your Own
+### 🌐 Live Website
+Visit: [https://www.aventis-consultancy.com/](https://www.aventis-consultancy.com/)
 
-Deploy your own Create React App project with Vercel.
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/create-react-app&template=create-react-app)
+## 📌 Features
 
-_Live Example: https://create-react-template.vercel.app/_
+- ✅ Fully responsive across devices (mobile, tablet, desktop)
+- ✅ Modern UI/UX design with smooth transitions
+- ✅ SEO-friendly structure
+- ✅ Clean and modular React component structure
+- ✅ Scroll animations and interactive elements
+- ✅ Navigation bar with smooth scrolling
+- ✅ Services section showcasing consultancy offerings
+- ✅ Contact form with basic validation
+- ✅ Footer with social media links
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Built With
 
-### `npm start`
+- [React.js](https://reactjs.org/)
+- [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
+---
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Folder Structure
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+```
+aventis-consultancy/
+├── public/
+│   ├── index.html
+│   └── assets/         # Images, favicons etc.
+├── src/
+│   ├── components/     # Reusable components (Navbar, Footer, Button, etc.)
+│   ├── pages/          # Page-level sections (Home, About, Services, Contact)
+│   ├── App.js
+│   ├── index.js
+│   └── App.css         # Global styles
+├── .gitignore
+├── package.json
+├── README.md
+└── LICENSE
+```
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/aventis-consultancy.git
+cd aventis-consultancy
+```
 
-Builds the app for production to the `build` folder.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+### 3. Run the development server
+```bash
+npm start
+```
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+---
+
+## ⚙️ Deployment
+
+The site is deployed using:
+
+- **Vercel**
+- **NameCheap**
+
+
+
+
+
+---
+
+## 👨‍💻 Author
+
+**Vipul Mishra**  
+Freelance Software Developer  
+[LinkedIn](https://github.com/vipul1009) • [Portfolio](https://vipulmishra.dev)
+
+---
+
+## Acknowledgements
+
+- The client for trusting me with their vision.
+- Open-source tools and libraries that made development efficient and smooth.
+
+---
