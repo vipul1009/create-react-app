@@ -9,7 +9,7 @@ export default function About() {
           <img
             src="/image.png" // Replace with your image path
             alt="SAP handshake"
-            className="w-full h-auto object-contain"
+            className="w-full h-full object-cover object-center"
           />
         </div>
 

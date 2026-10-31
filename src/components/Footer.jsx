@@ -9,7 +9,9 @@ export default function Footer() {
         <div>
           <h3 className="text-white text-lg font-bold mb-3">Aventis Consultancy Services</h3>
           <p className="text-sm">
-            Address - OFFICE NO-1039,10TH FLOOR,GALAXY BLUE SAPPHIRE PLAZA SECTOR-04,GREATER NOIDA WEST,G.B.NAGAR,U.P
+            Address - Office No. A-901A, Grandthum Group 108, Sector Tech Zone 4, Greater Noida West, District Gautam Buddha Nagar, Uttar Pradesh, India
+            <br />
+            Pincode - 201318
           </p>
         </div>
 
@@ -46,7 +48,7 @@ export default function Footer() {
               <FaTwitter />
             </a> */}
             <a
-              href="mailto:support@aventis-consultancy.com"
+              href="mailto:info@aventis-consultancy.com"
               className="hover:text-sky-400"
               target="_blank"
               rel="noopener noreferrer"
