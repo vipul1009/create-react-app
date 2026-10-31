@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Mail, Phone, Search, ChevronDown, ArrowUp } from "lucide-react"
+import { Mail, Phone, ChevronDown, ArrowUp } from "lucide-react"
 
 export default function Header() {
   const [activeMenu, setActiveMenu] = useState(null)

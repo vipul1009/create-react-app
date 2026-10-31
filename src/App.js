@@ -3,7 +3,6 @@ import Header from './components/NavBar.jsx';
 import InfoCard from './components/Card.jsx';
 import AtmcDivider from './components/DiagnolElement.jsx';
 import Home from './components/Home.jsx';
-import { Contact } from 'lucide-react';
 import ContactForm from './components/ContactForm.jsx';
 import ClientLogos from './components/Organizations.jsx';
 import About from './components/About.jsx';
